@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f506a35a5b704a75a0098ab5b8201b9, type: 3}
+  m_Name: so_itemList
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - itemCode: 1
+    itemType: 0
+    itemDescription: fuck
+    itemSprite: {fileID: 21300000, guid: f95b524ece08d4bf194c516311b60c37, type: 3}
+    itemLongDescription: fuck this shit
+    itemUseGridRadius: 2
+    itemUseRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 2
+    itemType: 1
+    itemDescription: fffffuuuccckkk
+    itemSprite: {fileID: 21300000, guid: 3e9cbbd8abfb449738e7d5e03abb77e7, type: 3}
+    itemLongDescription: fuck dien gan
+    itemUseGridRadius: 2
+    itemUseRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 3
+    itemType: 1
+    itemDescription: ffffffdssss
+    itemSprite: {fileID: 21300000, guid: d966edb4e2f0f406db0fd824e52b950e, type: 3}
+    itemLongDescription: dfdfdffdddddddsss
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 4
+    itemType: 2
+    itemDescription: fuck your mom
+    itemSprite: {fileID: -5536378534387122109, guid: 3d9eaa840ea72449c83fe4bff30e50f3, type: 3}
+    itemLongDescription: extiguisher
+    itemUseGridRadius: 2
+    itemUseRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
