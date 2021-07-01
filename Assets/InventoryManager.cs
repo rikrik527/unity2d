@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryManager : Singleton<InventoryManager>
+public class InventoryManager : SingletonPlayer<InventoryManager>
 {
     private Dictionary<int, ItemDetails> itemDetailsDictionary;
     [SerializeField] private So_itemList itemList = null;

@@ -12,25 +12,25 @@ public class PlayerAnimationParameter : MonoBehaviour
     }
     private void OnEnable()
     {
-        EventHandler.MovementEvent += SetAnimationParameter;
+        EventHandle.MovementEvent += SetAnimationParameter;
     }
     private void OnDisable()
     {
-        EventHandler.MovementEvent -= SetAnimationParameter;
+        EventHandle.MovementEvent -= SetAnimationParameter;
     }
     private void SetAnimationParameter(float xInput, float yInput, bool isWalking, bool isRunning, bool isSprinting, bool isIdle, bool isCarrying, ToolEffect toolEffect, bool idleLeft, bool idleRight)
     {
-        animator.SetFloat(Settings.xInput, xInput);
-        animator.SetFloat(Settings.yInput, yInput);
-        animator.SetBool(Settings.isWalking, isWalking);
-        animator.SetBool(Settings.isRunning, isRunning);
-        animator.SetBool(Settings.isSprinting, isSprinting);
+        animator.SetFloat(SettingsStats.xInput, xInput);
+        animator.SetFloat(SettingsStats.yInput, yInput);
+        animator.SetBool(SettingsStats.isWalking, isWalking);
+        animator.SetBool(SettingsStats.isRunning, isRunning);
+        animator.SetBool(SettingsStats.isSprinting, isSprinting);
 
-        animator.SetInteger(Settings.toolEffect, (int)toolEffect);
+        animator.SetInteger(SettingsStats.toolEffect, (int)toolEffect);
         if (idleLeft)
-            animator.SetTrigger(Settings.idleLeft);
+            animator.SetTrigger(SettingsStats.idleLeft);
         if (idleRight)
-            animator.SetTrigger(Settings.idleRight);
+            animator.SetTrigger(SettingsStats.idleRight);
     }
 
 

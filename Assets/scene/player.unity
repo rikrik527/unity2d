@@ -1956,9 +1956,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1969107937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d26e941d8214b24ade673e352e6bc0, type: 3}
+  m_Script: {fileID: 11500000, guid: f65e50229e2bf4303991d1b19ed8c7c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startTime: 0
+  animation: {fileID: 0}
 --- !u!1 &2023866498
 GameObject:
   m_ObjectHideFlags: 0
