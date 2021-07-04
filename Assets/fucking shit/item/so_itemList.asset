@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDetails:
   - itemCode: 1
-    itemType: 0
+    itemType: 1
     itemDescription: fuck
-    itemSprite: {fileID: 21300000, guid: f95b524ece08d4bf194c516311b60c37, type: 3}
+    itemSprite: {fileID: 21300000, guid: 3e9cbbd8abfb449738e7d5e03abb77e7, type: 3}
     itemLongDescription: fuck this shit
     itemUseGridRadius: 2
     itemUseRadius: 1
@@ -26,9 +26,9 @@ MonoBehaviour:
     canBeEaten: 1
     canBeCarried: 1
   - itemCode: 2
-    itemType: 1
+    itemType: 8
     itemDescription: fffffuuuccckkk
-    itemSprite: {fileID: 21300000, guid: 3e9cbbd8abfb449738e7d5e03abb77e7, type: 3}
+    itemSprite: {fileID: -5536378534387122109, guid: 3d9eaa840ea72449c83fe4bff30e50f3, type: 3}
     itemLongDescription: fuck dien gan
     itemUseGridRadius: 2
     itemUseRadius: 1
@@ -38,9 +38,9 @@ MonoBehaviour:
     canBeEaten: 0
     canBeCarried: 1
   - itemCode: 3
-    itemType: 1
+    itemType: 8
     itemDescription: ffffffdssss
-    itemSprite: {fileID: 21300000, guid: d966edb4e2f0f406db0fd824e52b950e, type: 3}
+    itemSprite: {fileID: -5978689401825280884, guid: 3d9eaa840ea72449c83fe4bff30e50f3, type: 3}
     itemLongDescription: dfdfdffdddddddsss
     itemUseGridRadius: 0
     itemUseRadius: 0
@@ -52,7 +52,7 @@ MonoBehaviour:
   - itemCode: 4
     itemType: 2
     itemDescription: fuck your mom
-    itemSprite: {fileID: -5536378534387122109, guid: 3d9eaa840ea72449c83fe4bff30e50f3, type: 3}
+    itemSprite: {fileID: 21300000, guid: f95b524ece08d4bf194c516311b60c37, type: 3}
     itemLongDescription: extiguisher
     itemUseGridRadius: 2
     itemUseRadius: 1
